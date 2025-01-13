@@ -35,8 +35,8 @@
         switch (settings.animation) { 
           case 'dissolve':
             el.animate({
-              textShadowBlur:20,
-              opacity: 0
+            textShadowBlur:20,
+            opacity: 0
             }, 500 , function() {
               index = $.inArray(el.text(), array)
               if((index + 1) == array.length) index = -1
